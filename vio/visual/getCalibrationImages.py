@@ -33,3 +33,5 @@ while True:
     cv2.imshow("Left Image", imgL)
     cv2.imshow("Right Image", imgR)
 
+cap.release()
+cv2.destroyAllWindows()
